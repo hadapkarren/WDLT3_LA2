@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div class="container">
+    <header>
+        <h1>WELCOME TO MY STORE</h1>
+    </header>
+    
+    <main>
+        <aside>
+            <h3>Cart</h3>
+            <ul id="cart-list"></ul>
+            <p id="total-price">Total: $0.00</p>
+        </aside>
+        
+        <section class="products">
+            <h2>PRODUCTS</h2>
+            <div class="grid">
+                <div class="product-card" data-price="50.00">
+                    <img src="src/cupkake.jpg"alt="Product 1">
+                    <h3>Cupcake</h3>
+                    <input type="number" class="product-price" value="50.00" step="0.01" min="0" />
+                    <p>$<span class="price-display">50.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-price="20.00">
+                    <img src="src/product1.jpg" alt="Product 2">
+                    <h3>Cookies</h3>
+                    <input type="number" class="product-price" value="20.00" step="0.01" min="0" />
+                    <p>$<span class="price-display">20.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-price="500.00">
+                    <img src="src/product2.jpg" alt="Product 3">
+                    <h3>Cake</h3>
+                    <input type="number" class="product-price" value="500.00" step="0.01" min="0" />
+                    <p>$<span class="price-display">500.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-price="35.00">
+                    <img src="src/product4.jpg" alt="Product 4">
+                    <h3>Pepsi</h3>
+                    <input type="number" class="product-price" value="35.00" step="0.01" min="0" />
+                    <p>$<span class="price-display">35.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-price="35.00">
+                    <img src="src/product5.jpg" alt="Product 5">
+                    <h3>Royal </h3>
+                    <input type="number" class="product-price" value="35.00" step="0.01" min="0" />
+                    <p>$<span class="price-display">35.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-price="35.00">
+                    <img src="src/product7.jpg" alt="Product 6">
+                    <h3>Sunkist</h3>
+                    <input type="number" class="product-price" value="35.00" step="0.01" min="0" />
+                    <p>$<span class="price-display">35.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+    <div class="list"></div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
